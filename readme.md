@@ -57,13 +57,14 @@ If you're using Linux, you can create a desktop shortcut for easy access to the 
    nano text_editor.desktop
    
 3. Inside the text_editor.desktop file, paste the following content:
+Replace /path/to/your/project/ with the actual path to your Text Editor project directory. Also, provide the correct path to the icon file (if you have one).
    ```bash
    [Desktop Entry]
     Name=Text Editor
     Exec=python3 /path/to/your/project/text_editor.py
     Type=Application
     Icon=/path/to/your/project/icon.png
-Replace /path/to/your/project/ with the actual path to your Text Editor project directory. Also, provide the correct path to the icon file (if you have one).
+
 4. Make the desktop shortcut file executable using the following command:
    ```bash
    chmod +x text_editor.desktop
